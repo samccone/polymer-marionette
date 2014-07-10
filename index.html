@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="bower_components/backbone.marionette/lib/backbone.marionette.js"></script>
+    <script src="bower_components/platform/platform.js"></script>
+    <link rel="import" href="bower_components/core-tooltip/core-tooltip.html">
+
+    <link rel="stylesheet", href="css/style.css">
+    <style shim-shadowdom2>
+      .on /deep/ .polymer-tooltip {
+        visibility: visible;
+      }
+    </style>
+
+  </head>
+
+  <body fullbleed unresolved>
+    <div id="tooltip-region"></div>
+    <div id="edit-region"></div>
+  </body>
+
+  <script src="polymer_app.js"></script>
+</html>
