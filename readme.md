@@ -1,6 +1,7 @@
 Polymer + Marionette
 ================
 
+[See it live](http://samccone.github.io/polymer-marionette/)
 
 ### Running
 
